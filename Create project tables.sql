@@ -1,3 +1,6 @@
+-- creating database
+create database r_hustle;
+
 use r_hustle;
 
 --  													creating tables
