@@ -85,23 +85,11 @@ The database consists of **10 core tables** with proper relationships, constrain
 postgresql://postgres:[PASSWORD]@db.fjxtiijrzocrgmknpnwx.supabase.co:5432/postgres
 ```
 
-### **Connection Tools**
+### **Connection Tool**
 
-#### **Option 1: DBeaver (Recommended - Free)**
-1. Download [DBeaver](https://dbeaver.io/)
-2. Click **New Connection** → **PostgreSQL**
-3. Enter the credentials above
-4. Click **Test Connection** → **Finish**
-
-#### **Option 2: pgAdmin**
-1. Open pgAdmin
-2. Right-click **Servers** → **Create** → **Server**
-3. Enter name and connection details
-4. Save and connect
-
-#### **Option 3: Command Line (psql)**
+#### **Command Line (psql)**
 ```bash
-psql -h db.fjxtiijrzocrgmknpnwx.supabase.co -p 5432 -d postgres -U postgres
+psql -h db.fjxtiijrzocrgmkpnpwx.supabase.co -p 5432 -d postgres -U postgres
 ```
 
 ---
@@ -281,7 +269,7 @@ remote-hustle-database/
 
 ## 👤 **Author**
 
-**Your Name**
+**Gideon Kajilum Benjamin**
 - 📧 Email: gkajilum@gmail.com
 - 🔗 GitHub: [KajilumAnalyst](https://github.com/your-username)
 - 🎓 Project: Remote Hustle Database Challenge (RHDC) Stage 1
@@ -297,6 +285,20 @@ remote-hustle-database/
 - **Original Development:** MySQL
 
 ---
+
+## 🔌 Live Database Access
+
+**Connection Details:**
+- **Host:** `db.fjxtiijrzocrgmkpnpwx.supabase.co`
+- **Port:** `5432`
+- **Database:** `postgres`
+- **User:** `postgres`
+- **Password:** `**********`
+- **SSL:** Required
+
+**Connection URL:** postgresql://postgres:[YOUR-PASSWORD]@db.fjxtiijrzocrgmkpnpwx.supabase.co:5432/postgres
+
+--
 
 ## 📜 **License**
 
